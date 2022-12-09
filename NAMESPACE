@@ -2,3 +2,5 @@
 
 export(gibbs_cpp)
 export(hessian_i)
+useDynLib(StatComp22077, .registration = TRUE)
+import(Rcpp)
